@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="textspace">
+            <textarea id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div id="keyboard">
+            <table class="buttons">
+                <tr>
+                    <td><button id="1" onclick="typeText(this.id)">1</button></td>
+                    <td><button id="2" onclick="typeText(this.id)">2</button></td>
+                    <td><button id="3" onclick="typeText(this.id)">3</button></td>
+                    <td><button id="4" onclick="typeText(this.id)">4</button></td>
+                    <td><button id="5" onclick="typeText(this.id)">5</button></td>
+                    <td><button id="6" onclick="typeText(this.id)">6</button></td>
+                    <td><button id="7" onclick="typeText(this.id)">7</button></td>
+                    <td><button id="8" onclick="typeText(this.id)">8</button></td>
+                    <td><button id="9" onclick="typeText(this.id)">9</button></td>
+                    <td><button id="0" onclick="typeText(this.id)">0</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="q" onclick="typeText(this.id)">q</button></td>
+                    <td><button id="w" onclick="typeText(this.id)">w</button></td>
+                    <td><button id="e" onclick="typeText(this.id)">e</button></td>
+                    <td><button id="r" onclick="typeText(this.id)">r</button></td>
+                    <td><button id="t" onclick="typeText(this.id)">t</button></td>
+                    <td><button id="y" onclick="typeText(this.id)">y</button></td>
+                    <td><button id="u" onclick="typeText(this.id)">u</button></td>
+                    <td><button id="i" onclick="typeText(this.id)">i</button></td>
+                    <td><button id="o" onclick="typeText(this.id)">o</button></td>
+                    <td><button id="p" onclick="typeText(this.id)">p</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="a" onclick="typeText(this.id)">a</button></td>
+                    <td><button id="s" onclick="typeText(this.id)">s</button></td>
+                    <td><button id="d" onclick="typeText(this.id)">d</button></td>
+                    <td><button id="f" onclick="typeText(this.id)">f</button></td>
+                    <td><button id="g" onclick="typeText(this.id)">g</button></td>
+                    <td><button id="h" onclick="typeText(this.id)">h</button></td>
+                    <td><button id="j" onclick="typeText(this.id)">j</button></td>
+                    <td><button id="k" onclick="typeText(this.id)">k</button></td>
+                    <td><button id="l" onclick="typeText(this.id)">l</button></td>
+                    <td><button id="semicolon" onclick="typeText(this.id)">;</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="z" onclick="typeText(this.id)">z</button></td>
+                    <td><button id="x" onclick="typeText(this.id)">x</button></td>
+                    <td><button id="c" onclick="typeText(this.id)">c</button></td>
+                    <td><button id="v" onclick="typeText(this.id)">v</button></td>
+                    <td><button id="b" onclick="typeText(this.id)">b</button></td>
+                    <td><button id="n" onclick="typeText(this.id)">n</button></td>
+                    <td><button id="m" onclick="typeText(this.id)">m</button></td>
+                    <td><button id="comma" onclick="typeText(this.id)">,</button></td>
+                    <td><button id="dot" onclick="typeText(this.id)">.</button></td>
+                    <td><button id="forward-slash" onclick="typeText(this.id)">\</button></td>
+                </tr>
+            </table>
+
+            <div class="last-row">
+                <button id="symbols" onclick="typeText(this.id)">&!@</button>
+                <button id="shift" onclick="typeText(this.id)">shift</button>
+                <button id="enter" onclick="typeText(this.id)">enter</button>
+                <button id="space" onclick="typeText(this.id)">sapce</button>
+                <button id="lessThan" onclick="typeText(this.id)"><</button>
+                <button id="greaterThan" onclick="typeText(this.id)">></button>
+                <button id="doubleQuote" onclick="typeText(this.id)">"</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
